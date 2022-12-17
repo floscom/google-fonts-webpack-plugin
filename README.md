@@ -4,21 +4,19 @@
 
 Download Google fonts to webpack build folder using [google-webfonts-helper](https://github.com/majodev/google-webfonts-helper) or use CDN to integrate with [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin).
 
-![publish](https://github.com/beyonk-adventures/google-fonts-webpack-plugin/workflows/publish/badge.svg)
-
 ---
 
 ## Install
 
 ```bash
-npm install @beyonk/google-fonts-webpack-plugin
+npm install @floscom/google-fonts-webpack-plugin
 ```
 
 ## Usage
 
 `/webpack.config.js`
 ```js
-const GoogleFontsPlugin = require("@beyonk/google-fonts-webpack-plugin")
+const GoogleFontsPlugin = require("@floscom/google-fonts-webpack-plugin")
 
 module.exports = {
 	"entry": "index.js",
